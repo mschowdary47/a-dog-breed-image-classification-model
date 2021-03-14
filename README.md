@@ -1,7 +1,7 @@
 # a-dog-breed-image-classification-model
 
 ### The Problem
-Kaggle hosted a [Dog Breed Identification](https://www.kaggle.com/c/dog-breed-identificationhttps://www.kaggle.com/c/dog-breed-identification) challenge, where the goal is to build a model that can identify the breed of a dog when given an image. There are 120 breeds, and a relatively small number of training images per class, which makes the problem harder than it orginally seems.
+Kaggle hosted a [Dog Breed Identification](https://www.kaggle.com/c/dog-breed-identificationhttps://www.kaggle.com/c/dog-breed-identification) challenge, where the goal is to build a model that can identify the breed of a dog when given an image. There are 10 breeds, and a relatively small number of training images per class, which makes the problem harder than it orginally seems.
 
 ### Methodology
 The obvious answer to an image recognition problem would be to use a convolutional neural network. Unfortunately, the small number of training examples makes this difficult, as any CNN trained soley on the given training images would be severely overfit. To alleviate this, I used transfer learning with Resnet18 to give my model a warm start and drastically cut down on training difficulties.

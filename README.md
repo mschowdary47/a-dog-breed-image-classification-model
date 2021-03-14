@@ -11,7 +11,8 @@ I chose Resnet18 as my starting model due to its relatively deep structure and r
 ### Results
 The model performed reasonably well, achieving ~70% accuracy on the validation set. A few sample predictions can be seen below.
 
-![alt text](https://raw.githubusercontent.com/yashrane/Dog-Breed-Identification/master/predictions/prediction%231.jpg)
+![image](https://user-images.githubusercontent.com/78808499/111062409-90a82480-84ce-11eb-818a-f68955959309.png)
+
 
 ![alt text](https://github.com/yashrane/Dog-Breed-Identification/blob/master/predictions/prediction%234.jpg)
 

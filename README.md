@@ -14,7 +14,6 @@ The model performed reasonably well, achieving ~70% accuracy on the validation s
 ![image](https://user-images.githubusercontent.com/78808499/111062409-90a82480-84ce-11eb-818a-f68955959309.png)
 
 
-![alt text](https://github.com/yashrane/Dog-Breed-Identification/blob/master/predictions/prediction%234.jpg)
 
 ### Future Improvements
 If I wanted to improve the accuracy of this model, I would have to do one of two things: use a deeper model or use a larger training set. If using a deeper model improves the accuracy, that would mean that my current model is underfitting the data. Using a larger training set, such as the [Stanford Dogs Dataset](http://vision.stanford.edu/aditya86/ImageNetDogs/), would reduce overfitting, is almost guaranteed to improve accuracy. However, it will also take much more computation power.
